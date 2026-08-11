@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blocksphere — Portfolio</title>
+    <meta name="bsp-build" content="1786409578899" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta
+      name="description"
+      content="Portfolio of Blocksphere blockchain consulting and development projects since 2017."
+    />
+    <meta property="og:title" content="Blocksphere — Portfolio" />
+    <meta
+      property="og:description"
+      content="Enterprise blockchain work across Indonesia and beyond — exchanges, RWA, privacy networks, and more."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/png" href="./assets/brand/mark.png?v=1786409578899" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Syne:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/assets/index-CXtSkUrL-1786409578899.js?v=1786409578899"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-ouophiwM-1786409578899.css?v=1786409578899">
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker__track" id="ticker-track"></div>
+    </div>
+
+    <header class="nav">
+      <a class="nav__brand" href="#top" aria-label="Blocksphere home">
+        <img src="./assets/brand/mark.png?v=1786409578899" alt="" width="36" height="36" />
+        <span>Blocksphere</span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#featured">Featured</a>
+        <a href="#archive">Archive</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="nav__cta" href="https://blocksphere.id/" target="_blank" rel="noopener">blocksphere.id</a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero__bg" aria-hidden="true">
+          <img src="./assets/projects/hero-neoclassical.webp?v=1786409578899" alt="" />
+          <div class="hero__veil"></div>
+        </div>
+        <div class="hero__content">
+          <p class="eyebrow">Portfolio · 2017–2026</p>
+          <h1 class="hero__title">
+            <span class="hero__brand">Blocksphere</span>
+            <span class="hero__line">Shipping blockchain since 2017.</span>
+          </h1>
+          <p class="hero__sub">
+            Production-grade ledgers, exchanges, RWA rails, and privacy networks —
+            engineered with enterprise discipline and crypto-native precision.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#featured">Explore work</a>
+            <a class="btn btn--ghost" href="mailto:hello@blocksphere.id">hello@blocksphere.id</a>
+          </div>
+        </div>
+        <div class="hero__columns" aria-hidden="true">
+          <div class="col-motif"></div>
+          <div class="col-motif"></div>
+        </div>
+      </section>
+
+      <section class="trusted" id="trusted">
+        <div class="section-head">
+          <h2>Trusted by organizations building the future</h2>
+          <p>Enterprises, regulators, and technology leaders across Indonesia and the region.</p>
+        </div>
+        <div class="trusted__marquee" id="client-marquee"></div>
+      </section>
+
+      <section class="featured" id="featured">
+        <div class="section-head section-head--invert">
+          <p class="eyebrow">Selected collaboration</p>
+          <h2>Featured work</h2>
+          <p class="featured-hint">
+            Three projects spotlight each visit.
+            Prefer a theme? Build your own view below in the archive, or try
+            <code>?tag=tokenization</code>.
+          </p>
+        </div>
+        <div id="featured-root"></div>
+      </section>
+
+      <section class="archive" id="archive">
+        <div class="section-head">
+          <p class="eyebrow">Full record</p>
+          <h2>Project archive</h2>
+          <p>Every engagement from the Blocksphere portfolio — searchable and filterable by year.</p>
+        </div>
+        <div class="archive__controls">
+          <label class="sr-only" for="archive-search">Search projects</label>
+          <input id="archive-search" type="search" placeholder="Search name, client, tag…" />
+          <div class="year-filters" id="year-filters" role="group" aria-label="Filter by year"></div>
+        </div>
+        <div class="archive__meta"><span id="archive-count"></span></div>
+        <div class="archive__list" id="archive-list" role="list"></div>
+
+        <aside class="generator" id="featured-generator" aria-labelledby="generator-title">
+          <div class="generator__head">
+            <p class="eyebrow">Explore by theme</p>
+            <h3 id="generator-title">Build your featured view</h3>
+            <p>
+              Choose the projects most relevant to you, set the order, and open a
+              personal portfolio link you can bookmark or share with your team.
+            </p>
+          </div>
+          <div class="generator__presets" id="generator-presets"></div>
+          <div class="generator__pool" id="generator-pool" role="listbox" aria-multiselectable="true"></div>
+          <div class="generator__selected">
+            <div class="generator__selected-head">
+              <strong>Your selection</strong>
+              <span id="generator-selected-count">0 selected</span>
+            </div>
+            <ol class="generator__order" id="generator-order"></ol>
+          </div>
+          <div class="generator__output">
+            <label class="sr-only" for="generator-url">Your portfolio link</label>
+            <input id="generator-url" type="text" readonly value="" />
+            <div class="generator__actions">
+              <button type="button" class="btn btn--primary" id="generator-copy">Copy link</button>
+              <a class="btn btn--ghost" id="generator-open" href="#" target="_blank" rel="noopener">View selection</a>
+              <button type="button" class="btn btn--ghost" id="generator-clear">Clear</button>
+            </div>
+            <p class="generator__hint" id="generator-hint">Select one or more projects to create your link.</p>
+          </div>
+        </aside>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="contact__panel">
+          <p class="eyebrow">Ready to ship the chain?</p>
+          <h2>Let’s build the next chapter.</h2>
+          <p>
+            Drop a line for strategy, engineering, audits, or training —
+            from whiteboard to production.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="mailto:hello@blocksphere.id">Email Blocksphere</a>
+            <a class="btn btn--ghost" href="https://blocksphere.id/" target="_blank" rel="noopener"
+              >Visit blocksphere.id</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__grid">
+        <div>
+          <strong>Blocksphere</strong>
+          <p>PT Blocksphere Teknoniaga Indonesia</p>
+        </div>
+        <div>
+          <p>Marquee, Level 37, Equity Tower, SCBD Lot 9</p>
+          <p>Jl. Jend. Sudirman Kav 52–53, Jakarta 12190</p>
+        </div>
+        <div>
+          <a href="mailto:hello@blocksphere.id">hello@blocksphere.id</a>
+          <p>@blocksphere.id</p>
+        </div>
+      </div>
+      <p class="footer__copy">© 2017–2026 Blocksphere Indonesia. All rights reserved.</p>
+    </footer>
+
+  </body>
+</html>
