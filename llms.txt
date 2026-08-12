@@ -1,0 +1,15 @@
+# Blocksphere
+
+> Enterprise blockchain consulting and development — bridging boardroom ambition with production-grade decentralization across Indonesia and beyond.
+
+Blocksphere is PT Blocksphere Teknoniaga Indonesia, an enterprise blockchain consulting and development company shipping production systems since 2017.
+
+## Portfolio
+
+- [Interactive portfolio](https://portfolio.blocksphere.id/): The visual, searchable Blocksphere project portfolio.
+- [Complete text portfolio](https://portfolio.blocksphere.id/portfolio.md): Company information, detailed featured work, and the full public project archive.
+
+## Contact
+
+- [Blocksphere corporate site](https://blocksphere.id/)
+- Email: hello@blocksphere.id
