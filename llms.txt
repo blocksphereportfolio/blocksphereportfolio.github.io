@@ -8,6 +8,9 @@ Blocksphere is PT Blocksphere Teknoniaga Indonesia, an enterprise blockchain con
 
 - [Interactive portfolio](https://portfolio.blocksphere.id/): The visual, searchable Blocksphere project portfolio.
 - [Complete text portfolio](https://portfolio.blocksphere.id/portfolio.md): Company information, detailed featured work, and the full public project archive.
+- [Full LLM context](https://portfolio.blocksphere.id/llms-full.txt): The complete portfolio as plain text.
+- [Portfolio JSON](https://portfolio.blocksphere.id/portfolio.json): Structured company, client, featured-project, and archive data.
+- [Sitemap](https://portfolio.blocksphere.id/sitemap.xml): Canonical machine-readable endpoints.
 
 ## Contact
 
